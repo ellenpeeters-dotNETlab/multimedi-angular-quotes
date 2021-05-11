@@ -1,0 +1,10 @@
+<h1>{{ quote?.title }}</h1>
+<div class="container">
+    <img [src]="image" style="width: 100%"/>
+    <div class="text">
+        <p style="font-size: 30px">{{ quote?.quote }}</p>
+        <hr style="width: 50%"/>
+        <p style="font-size: 25px">{{ quote?.author }}</p>
+    </div>
+</div>
+<p class="text-center">Copyright &copy; {{ copyright?.year }} <a [href]="copyright?.url">{{ copyright?.url }}</a></p>
